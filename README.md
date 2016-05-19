@@ -20,4 +20,4 @@ This app uses the Michelson Speed of Light data. This is a classical
              according to your selections (this include the intercept, slope and 
              Adjusted R^2); when you choose Loess there's no information about the model
              and when you choose no fit, the summary is calculated with the summary
-             function so you can see the mean, median, etc. "))
+             function so you can see the mean, median, etc.
