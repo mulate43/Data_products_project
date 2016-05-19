@@ -61,7 +61,10 @@ shinyUI(fluidPage(
             
             #Input to select if you want confidence intervals in the plot
             radioButtons("CI","Confidence intervals (95%):",choices=c("Yes","No"),
-                         inline=T)
+                         inline=T),
+            
+            "You can see the files UI.R and server.R in 
+            https://github.com/mulate43/Data_products_project"
     ),
 
     #Define the tab panel t show the outputs
