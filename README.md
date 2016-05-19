@@ -1,5 +1,5 @@
 # Data_products_project
-##Files fot the project for Developing Data Products course on Coursera 
+##Files for the project for Developing Data Products course on Coursera 
 
 This app uses the Michelson Speed of Light data. This is a classical 
              data of Michelson (but not this one with Morley) on measurements done 
