@@ -63,8 +63,11 @@ shinyUI(fluidPage(
             radioButtons("CI","Confidence intervals (95%):",choices=c("Yes","No"),
                          inline=T),
             
-            "You can see the files UI.R and server.R in 
-            https://github.com/mulate43/Data_products_project"
+            wellPanel(
+                    helpText(a("See the UI.R and server.R files",     
+                               href="https://github.com/mulate43/Data_products_project")
+                    )
+            )
     ),
 
     #Define the tab panel t show the outputs
